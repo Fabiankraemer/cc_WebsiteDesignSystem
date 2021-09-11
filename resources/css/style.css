@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,300&family=Raleway:ital,wght@0,400;0,700;1,300&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fffade;
+}
+
+h1,
+h2,
+.color {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+}
+
+section {
+  border: 1px solid black;
+  margin: auto;
+  max-width: 800px;
+  margin-bottom: 30px;
+  background-color: white;
+  text-align: center;
+}
+
+/* Color Section sytling */
+
+.color {
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+}
+
+.colorbox {
+  width: 124px;
+  height: 124px;
+  border-radius: 10%;
+}
+
+#mainCol {
+  background-color: #17c190;
+}
+
+#secondCol {
+  background-color: #639c85;
+}
+
+#fontCol {
+  background-color: #7f7382;
+}
+
+#backgroundCol {
+  background-color: #fffade;
+}
+
+#highlightCol {
+  background-color: #6b357f;
+}
+
+/* Font Section Styling */
+
+.fontcontainer {
+  display: block;
+  margin: 10px auto;
+  border: #17c190 1px solid;
+  width: 740px;
+}
+
+.fonttitle {
+  width: 30%;
+  border: 1px solid orange;
+}
+
+.fontcontent {
+  width: 70%;
+  border: 1px solid orange;
+}
+
+#montserratfont {
+  font-family: "Montserrat", sans-serif;
+}
+
+#ralewayfont {
+  font-family: "Raleway", sans-serif;
+}
