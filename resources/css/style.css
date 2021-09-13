@@ -107,9 +107,12 @@ h3 {
 
 .stylecontainer {
   text-align: center;
-  display: inline-block;
+  float: left;
   width: 250px;
   height: 160px;
-  margin: 1px;
-  border: grey 1px solid;
+  margin: 1%;
+}
+
+.clear {
+  clear: both;
 }
