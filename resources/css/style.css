@@ -8,26 +8,47 @@ body {
   background-color: #fffade;
 }
 
-h1,
-h2,
-.color {
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  text-align: center;
-}
-
 section {
-  border: 1px solid black;
+  text-align: center;
   margin: auto;
   max-width: 800px;
   margin-bottom: 30px;
   background-color: white;
-  text-align: center;
+  border: 1px solid grey;
+}
+
+section > h2 {
+  background-color: #639c85;
+  color: white;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+p {
+  font-family: "Raleway", sans-serif, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+ul {
+  text-align: start;
+  font-family: "Raleway", sans-serif, Arial, Helvetica, sans-serif;
 }
 
 /* Color Section sytling */
 
 .color {
+  font-family: Arial, Helvetica, sans-serif;
   display: inline-block;
   text-align: center;
   margin: 10px;
@@ -62,30 +83,33 @@ section {
 /* Font Section Styling */
 
 .fontcontainer {
-  display: block;
-  margin: 10px;
-  border: #17c190 1px solid;
-}
-
-.left,
-.right {
-  display: block;
-  width: 50%;
-  border: 1px solid orange;
+  text-align: center;
+  width: 45%;
+  min-width: 300px;
+  margin: 1%;
+  display: inline-block;
 }
 
 #montserratfont {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif, Arial, Helvetica, sans-serif;
 }
 
 #ralewayfont {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif, Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 24px;
 }
 
 /* Text Section Styling */
 
 .stylecontainer {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 10px;
-  border: #17c190 1px solid;
+  text-align: center;
+  display: inline-block;
+  width: 250px;
+  height: 160px;
+  margin: 1px;
+  border: grey 1px solid;
 }
